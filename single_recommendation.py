@@ -64,7 +64,7 @@ if __name__ == '__main__':
     sys.exit()
     
   # Read the tagged videos
-  data    = json.load(open("tagged_videos.json"))
+  data = json.load(open("tagged_videos.json"))
   
   vid = data[int(sys.argv[1])-1]
 #   vid = data[274-1]

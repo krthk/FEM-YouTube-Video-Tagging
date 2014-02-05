@@ -5,8 +5,8 @@ Created on Feb 1, 2014
 '''
 
 import json
-from youtube_tag.nlp import extract_entities
-from youtube_tag.imdb_parse import get_actor_imdb_id, get_omdb_people,\
+from youtube_tag_recommend.nlp import extract_entities
+from youtube_tag_recommend.imdb_parse import get_actor_imdb_id, get_omdb_people,\
   get_top_movies, get_top_tv
 
 """
